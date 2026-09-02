@@ -8,11 +8,6 @@ venv/
 env/
 ENV/
 .venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
 
 # Jupyter Notebooks
 .ipynb_checkpoints/
@@ -22,6 +17,17 @@ venv.bak/
 experiments/*/best_model/
 experiments/*/logs/
 experiments/*/checkpoint-*/
+experiments/*/*.safetensors
+experiments/*/*.bin
+experiments/*/*.pt
 
 # Allow results CSV
 !experiments/*/*.csv
+
+# Dataset cache
+.cache/
+*.arrow
+*.parquet
+
+# Hugging Face cache
+.cache/huggingface/
