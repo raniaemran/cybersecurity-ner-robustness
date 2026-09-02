@@ -18,42 +18,10 @@ venv.bak/
 .ipynb_checkpoints/
 *.ipynb
 
-# PyTorch
-*.pth
-*.pt
-
-# Transformers
+# ML Checkpoints and Outputs
 experiments/*/best_model/
 experiments/*/logs/
 experiments/*/checkpoint-*/
 
-# Data
-data/raw/
-data/processed/
-data/perturbations/
-
-# Results
-results/
-*.csv
-*.json
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-logs/
-*.log
-
-# Model files
-*.pkl
-*.pickle
-
-# Hugging Face cache
-.cache/
+# Allow results CSV
+!experiments/*/*.csv
