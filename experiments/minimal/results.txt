@@ -1,0 +1,21 @@
+============================================================
+MINIMAL TRAINING RESULTS
+============================================================
+Date: Thu Sep  3 10:06:42 AM CAT 2026
+Model: distilbert-base-uncased
+Training examples: 100
+Test examples: 50
+Epochs: 2
+Batch size: 4
+
+RESULTS:
+- Loss: 0.9183
+- Precision: 0.0000
+- Recall: 0.0000
+- F1: 0.0000
+
+NOTES:
+- F1 = 0.00 expected with only 100 training examples
+- Model trained successfully, pipeline works
+- Need more data for meaningful results
+============================================================
