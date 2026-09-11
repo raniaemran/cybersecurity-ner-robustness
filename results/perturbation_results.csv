@@ -1,0 +1,6 @@
+condition,precision,recall,f1
+Clean,0.7369,0.8584,0.7931
+Multilingual,0.7369,0.8584,0.7931
+Code-switched,0.7962,0.8923,0.8415
+Obfuscated,0.7369,0.8584,0.7931
+Normalized,0.7369,0.8584,0.7931
